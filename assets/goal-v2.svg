@@ -1,0 +1,27 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="goalbar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#34d399"/>
+    <stop offset="100%" stop-color="#22c55e"/>
+  </linearGradient>
+</defs>
+
+<rect width="1000" height="260" rx="28" fill="#07110b"/>
+
+<text x="48" y="62" fill="#ffffff" font-size="29" font-weight="800" font-family="Segoe UI,Arial,sans-serif">MAIN QUEST</text>
+<text x="48" y="103" fill="#d5e4da" font-size="19" font-family="Segoe UI,Arial,sans-serif">Comprar um PS5 Pro + GTA VI</text>
+
+<rect x="48" y="135" width="620" height="22" rx="11" fill="#15231a"/>
+<rect x="48" y="135" width="76" height="22" rx="11" fill="url(#goalbar)"/>
+<circle cx="124" cy="146" r="8" fill="#dfffea"/>
+
+<text x="48" y="198" fill="#9fb7aa" font-size="14" font-family="Segoe UI,Arial,sans-serif">STARTING BALANCE</text>
+<text x="48" y="231" fill="#86efac" font-size="30" font-weight="800" font-family="Segoe UI,Arial,sans-serif">R$ 10,00</text>
+
+<g transform="translate(720,80)">
+  <rect width="225" height="120" rx="20" fill="#0a140e" stroke="#31513e"/>
+  <text x="22" y="34" fill="#9fb7aa" font-size="14" font-family="Segoe UI,Arial,sans-serif" letter-spacing="2">STATUS</text>
+  <text x="22" y="69" fill="#ffffff" font-size="19" font-weight="700" font-family="Segoe UI,Arial,sans-serif">QUEST IN PROGRESS</text>
+  <text x="22" y="99" fill="#86efac" font-size="15" font-family="Segoe UI,Arial,sans-serif">Current wallet: R$ 10,00</text>
+</g>
+</svg>

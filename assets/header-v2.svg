@@ -1,0 +1,46 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07110b"/>
+    <stop offset="55%" stop-color="#0b1610"/>
+    <stop offset="100%" stop-color="#0e1f16"/>
+  </linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#34d399"/>
+    <stop offset="55%" stop-color="#22c55e"/>
+    <stop offset="100%" stop-color="#86efac"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="1000" height="280" rx="28" fill="url(#bg)"/>
+<circle cx="880" cy="20" r="170" fill="#22c55e" opacity=".07"/>
+<circle cx="950" cy="250" r="150" fill="#34d399" opacity=".06"/>
+
+<rect x="48" y="42" width="6" height="196" rx="3" fill="url(#green)" filter="url(#glow)"/>
+
+<text x="82" y="82" fill="#9fb7aa" font-size="20" font-family="Segoe UI,Arial,sans-serif" letter-spacing="4">PLAYER PROFILE</text>
+<text x="78" y="155" fill="#ffffff" font-size="76" font-weight="800" font-family="Segoe UI,Arial,sans-serif">YAN</text>
+<text x="82" y="192" fill="#d5e4da" font-size="22" font-family="Segoe UI,Arial,sans-serif">Gamer • Developer • Boss Fight Enjoyer</text>
+
+<g font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">
+  <rect x="82" y="216" width="150" height="34" rx="17" fill="#0c1710" stroke="#34d399" stroke-opacity=".7"/>
+  <text x="104" y="239" fill="#c7f9d9">CUPHEAD ×10</text>
+
+  <rect x="246" y="216" width="178" height="34" rx="17" fill="#0c1710" stroke="#22c55e" stroke-opacity=".75"/>
+  <text x="268" y="239" fill="#dcffe8">EXPERT MODE ✓</text>
+
+  <rect x="438" y="216" width="164" height="34" rx="17" fill="#0c1710" stroke="#86efac" stroke-opacity=".65"/>
+  <text x="463" y="239" fill="#effff4">SAVE FILE 01</text>
+</g>
+
+<g transform="translate(730,94)">
+  <rect width="200" height="110" rx="20" fill="#0a140e" stroke="#31513e"/>
+  <text x="22" y="30" fill="#9fb7aa" font-size="14" font-family="Segoe UI,Arial,sans-serif" letter-spacing="2">CURRENT QUEST</text>
+  <text x="22" y="63" fill="#ffffff" font-size="20" font-weight="700" font-family="Segoe UI,Arial,sans-serif">PS5 PRO + GTA VI</text>
+  <text x="22" y="92" fill="#86efac" font-size="16" font-family="Segoe UI,Arial,sans-serif">Wallet: R$ 10,00</text>
+</g>
+</svg>
