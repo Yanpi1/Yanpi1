@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="237" viewBox="0 0 1160 237" role="img" aria-labelledby="title desc">
+<title id="title">Áreas de interesse</title>
+<desc id="desc">Três cartões: Web e Mobile, Integrações e Automação, Design e Experiência.</desc>
+<defs>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1517"/><stop offset="1" stop-color="#10251d"/></linearGradient>
+<linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c694c"/><stop offset="1" stop-color="#203b36"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="370" height="231" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+<rect x="395" y="1" width="370" height="231" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+<rect x="789" y="1" width="370" height="231" rx="18" fill="url(#card)" stroke="url(#stroke)" stroke-width="2"/>
+<g fill="none" stroke="#6ee7b7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+ <rect x="31" y="32" width="53" height="37" rx="6"/><path d="M31 45H84M52 80h12m-6-11v11"/>
+ <rect x="425" y="32" width="49" height="17" rx="8"/><rect x="425" y="56" width="49" height="17" rx="8"/><path d="M439 40h1M439 65h1M487 53h20m-10-10v20"/>
+ <rect x="820" y="30" width="50" height="48" rx="8"/><path d="M832 64l11-20 10 12 7-8M832 65h27"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="31" y="111" font-size="14" letter-spacing="3" font-weight="700" fill="#54d99b">01 / DEVELOPMENT</text>
+ <text x="31" y="148" font-size="26" font-weight="700" fill="#f4faf6">Web e Mobile</text>
+ <text x="31" y="180" font-size="16" fill="#bbd1c6">Interfaces responsivas e</text><text x="31" y="202" font-size="16" fill="#bbd1c6">aplicações para o dia a dia.</text>
+ <text x="425" y="111" font-size="14" letter-spacing="3" font-weight="700" fill="#54d99b">02 / SYSTEMS</text>
+ <text x="425" y="148" font-size="25" font-weight="700" fill="#f4faf6">APIs e Automação</text>
+ <text x="425" y="180" font-size="16" fill="#bbd1c6">Integrações, dados e</text><text x="425" y="202" font-size="16" fill="#bbd1c6">otimização de processos.</text>
+ <text x="820" y="111" font-size="14" letter-spacing="3" font-weight="700" fill="#54d99b">03 / EXPERIENCE</text>
+ <text x="820" y="148" font-size="25" font-weight="700" fill="#f4faf6">Design e UX</text>
+ <text x="820" y="180" font-size="16" fill="#bbd1c6">Organização visual, clareza</text><text x="820" y="202" font-size="16" fill="#bbd1c6">e experiência do usuário.</text>
+</g>
+</svg>
